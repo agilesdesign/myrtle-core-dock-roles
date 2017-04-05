@@ -1,0 +1,21 @@
+{
+    "name": "agilesdesign/myrtle-core-dock-roles",
+    "description": "Core Roles Dock for Myrtle WMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/database",
+            "src/Myrtle/core/Docks"
+        ],
+        "psr-4": {
+            "Myrtle\\Core\\Roles\\": "src/Roles"
+        }
+    }
+}
