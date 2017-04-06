@@ -12,7 +12,7 @@
     "autoload": {
         "classmap": [
             "src/database",
-            "src/Myrtle/core/Docks"
+            "src/Myrtle/Core/Docks"
         ],
         "psr-4": {
             "Myrtle\\Core\\Roles\\": "src/Roles"
