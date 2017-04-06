@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 use Myrtle\Roles\Models\Observers\RoleCascadeObserver;
 use Myrtle\Roles\Models\Observers\SacredRoleObserver;
 use Myrtle\Users\Models\User;
-use Myrtle\Permissions\Models\Traits\Permissionable;
+use Myrtle\Core\Permissions\Models\Traits\Permissionable;
 
 class Role extends Model
 {
